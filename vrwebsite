@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VR Custom Navbar Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="vrwebsite.css">
+</head>
+<body>
+
+    <div class="p-3">
+        <h1 class="h1">Features</h1>
+        <div class="container">
+            <div class="column">
+                <div class="text-center mt-3 mb-5 col-12 col-md-4">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/easy-connect-img.png">
+                    <h1>Easy to connect</h1>
+                    <p>Instead of viewing a screen in front of them,users are immersed and able to interact with 3d worlds. </p>
+                </div>
+                <div class="text-center mt-3 mb-5 col-12 col-md-4">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-capability-img.png">
+                    <h1>VR Capability</h1>
+                    <p>Virtual reality (VR) can create an enviroment similar to or completely different from the real world</p>
+                </div>
+                <div class="text-center mt-3 mb-5 col-12 col-md-4">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/video-games-img.png">
+                    <h1>Video games</h1>
+                    <p>Ability to recognize hand motion,evolving interactions and gameplay in vr</p>
+                </div>
+                <div class="text-center mt-3 mb-5 col-12 col-md-4">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/interaction-img.png">
+                    <h1>Interaction</h1>
+                    <p>Interaction refers to the 
+                        <span class="hilight">natural interaction</span>
+                        between the user and virtual scene.
+                    </p>
+                </div>
+                <div class="text-center mt-3 mb-5 col-12 col-md-4">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/easy-play-img.png">
+                    <h1>Easy to play</h1>
+                    <p>In 360-degree video,the locations of viewers are fixed,viewers are limited to  the angles captured by the cameras.</p>
+                </div>
+                <div class="text-center mt-3 mb-5 col-12 col-md-4">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/experience-img.png">
+                    <h1>Awesome Experience</h1>
+                    <p>Virtual reality (VR)  is a simukated experience that can be similar to or completely different from the real world.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+                  .css
+
+                  @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap"); 
+
+.h1{
+    font-size: 15px;
+    margin-top: 12px;
+
+}
+
+.h1{
+    color: #1f2933;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.p{
+    color: #7b8794;
+    font-size: 12px;
+
+}
+
+.img{
+    height: 40px;
+}
+
+.hilight{
+    color: #1f2933;
+    font-weight: bold;
+
+}
